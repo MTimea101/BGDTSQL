@@ -1,0 +1,32 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings (if using VS Code)
+.vscode/
+
+# macOS system file
+.DS_Store
+
+# Environment variable files
+.env
+
+# Log files
+*.log
+
+# Test data / auto-generated files (if applicable)
+*.json
+*.db
+
+# MongoDB dumps (if generated)
+dump/
+
+# Python virtual environments
+venv/
+.env/
+env/
+
+# Keep specific JSON files
+!schema.json
+!users.json
