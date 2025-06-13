@@ -74,6 +74,7 @@ BGDTSQL/
 │
 ├── BackEnd/
 │ └── Main/ # Entry point and core logic
+│ └── Main/ # Entry point and core logic
 │
 ├── engine/ # DBMS logic (execution, indexing)
 ├── storage/ # File-based data I/O
