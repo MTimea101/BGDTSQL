@@ -73,15 +73,23 @@
 BGDTSQL/
 │
 ├── BackEnd/
-│   └── Main/             # Entry point and core logic
+│ └── Main/ # Entry point and core logic
 │
-├── engine/               # DBMS logic (execution, indexing)
-├── storage/              # File-based data I/O
-├── catalog/              # Metadata (tables, databases)
-├── mongo/                # MongoDB integration
-├── tests/                # Unit and integration tests
-├── FrontEnd/
-│   └── main.html         # Frontend HTML interface
+├── engine/ # DBMS logic (execution, indexing)
+├── storage/ # File-based data I/O
+├── mongo/ # MongoDB integration
+├── tests/ # Unit and integration tests
+│
+├── MetaData/ # Sample metadata files describing databases and schemas
+│ ├── TestDB.json
+│ ├── Ecommerce.json
+│ └── ...
+│
+├── FrontEnd/ # Frontend UI and assets
+│ ├── main.html # HTML interface
+│ ├── style.css # Optional CSS styling
+│ └── script.js # Optional JS logic for UI interaction
+│
 ├── README.md
 └── .gitignore
 ```
